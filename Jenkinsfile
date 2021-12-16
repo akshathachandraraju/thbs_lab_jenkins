@@ -10,7 +10,7 @@ pipeline {
 
             echo "Hello World"
 
-            echo ${BUILD_NUMBER}
+            echo "${BUILD_NUMBER}"
 
         }
 
@@ -20,7 +20,7 @@ pipeline {
 
             echo "Hello World"
 
-            echo ${BUILD_NUMBER}
+            echo "${JOB_NAME}"
 
         }
 
